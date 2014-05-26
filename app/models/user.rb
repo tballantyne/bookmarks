@@ -4,8 +4,7 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
   # devise :database_authenticatable, :registerable,
   #       :recoverable, :rememberable, :trackable, :validatable
-  devise :database_authenticatable, :registerable,
-         :rememberable, :validatable
+  devise :database_authenticatable, :registerable, :rememberable, :validatable
 
   has_many :bookmarks
   belongs_to :user
