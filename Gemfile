@@ -33,6 +33,9 @@ group :doc do
 end
 
 gem 'devise', '~> 3.0.0.rc'
+gem 'zurb-foundation', '~> 4.2.2'
+gem 'simple_form', '~> 3.0.0.rc'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
